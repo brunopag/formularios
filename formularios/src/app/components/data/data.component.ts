@@ -19,6 +19,8 @@ export class DataComponent {
 
   constructor() {
 
+    //Approach por codigo. Se definen campos y validaciones desde el componente.
+
     this.forma = new FormGroup({
       nombre: new FormControl("", [Validators.required, Validators.minLength(3)]),
       apellido: new FormControl("", [Validators.required, this.noHerrera]),

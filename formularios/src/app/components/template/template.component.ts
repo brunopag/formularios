@@ -12,6 +12,8 @@ import {NgForm} from '@angular/forms';
 })
 export class TemplateComponent {
 
+  // Approach por template. Se definen las validaciones desde el template HTML.
+
   usuario:Object = {
     nombre: "Bruno",
     apellido: "Paganini",
